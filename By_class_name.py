@@ -22,6 +22,7 @@ class PythonSearch(unittest.TestCase):
         assert "No results found." not in driver.page_source
 
 
+
     def tearDown(self):
         self.driver.close()
 

@@ -14,7 +14,7 @@ class Programizsearch(unittest.TestCase):
         driver = self.driver
         driver.get("https://www.programiz.com/")
         self.assertIn("Programiz", driver.title)
-        elem = driver.find_element_by_id("edit-keys-2")
+        elem = driver.find_element_by_id(id)
         elem.send_keys("Python objects and class")
         elem.send_keys(Keys.RETURN)
 
