@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+   <locators>
+   <locator name="BaseUrl">https://www.programiz.com</locator>
+      <locator name= "ProgramizeOpen">iUh30</locator>
+      <locator name= "SearchField">//input[@id = 'edit-keys-2']</locator>
+      <locator name= "Go">form-submit</locator>
+      <locator name= "SearchResult">search-snippet</locator>
+   </locators>
